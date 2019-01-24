@@ -15,8 +15,8 @@ int main(){
     bool isRunning;
 
     do {
-        
-        cout << "Make your question: " << endl;
+
+        cout << "Ask a question: " << endl;
         getline(cin, userQuestion);
 
         srand(time(0));
